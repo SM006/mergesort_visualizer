@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
     text-align: center;
     background: #000000;
     padding: 20px;
@@ -19,7 +19,6 @@ body {
     position: relative;
   }
   
-  
   .bar {
     background-color: rgb(9, 103, 89);
     width: 100px;
@@ -35,18 +34,18 @@ body {
   
   .bar.down {
     transform: translateY(40px);
-    background-color: rgb(182, 255, 110);
+    background-color: rgb(100, 239, 0);
   }
   
   .bar.merged {
     background-color: seagreen;
   }
 
-  .button {
-    background-color: #4CAF50; /* Green */
+  button {
+    background-color: #4CAF50; 
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -55,4 +54,46 @@ body {
     cursor: pointer;
     border-radius: 4px;
   }
-  
+
+  /* Slider styling */
+  input[type="range"] {
+    -webkit-appearance: none;
+    width: 200px;
+    height: 8px;
+    background: #333;
+    border-radius: 4px;
+    margin: 10px;
+  }
+
+  /* Slider thumb */
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background: #45a049;
+    transform: scale(1.1);
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  input[type="range"]::-moz-range-track {
+    background: #333;
+    height: 8px;
+    border-radius: 4px;
+  }
+

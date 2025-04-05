@@ -1,4 +1,3 @@
-console.log("Script loaded");
 let array = [];
 let speed = 200;
 
@@ -15,7 +14,6 @@ speedInput.addEventListener("input", () => {
   
 
 function generateArray() {
-  console.log("Generating array...");
   const size = +arraySizeInput.value;
   array = Array.from({ length: size }, () => Math.floor(Math.random() * 100) + 10);
   console.log("Generated array:", array);
@@ -24,7 +22,6 @@ function generateArray() {
 
 
 function renderBars(arr) {
-  console.log("Rendering bars...");
   barContainer.innerHTML = "";
   const width = Math.floor(barContainer.clientWidth / arr.length) - 4;
   arr.forEach((value, i) => {
