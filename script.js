@@ -309,13 +309,13 @@ function create2DBar(value, index, total) {
   bar.className = 'bar';
   
   // Calculate height, ensuring even small values have some visibility
-  const heightValue = Math.max(5, value * 5); // Minimum height of 5px
+  const heightValue = Math.max(10, value * 5); // Minimum height of 10px
   bar.style.height = `${heightValue}px`;
   
   bar.style.width = `${barWidth}px`;
   bar.style.marginLeft = `${gap}px`;
   bar.style.marginRight = `${gap}px`;
-  
+  bar.style.marginBottom = '50px';
   // Enhanced visual for small values
   if (value < 20) {
     bar.setAttribute('data-small-value', 'true');
