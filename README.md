@@ -16,6 +16,7 @@ A dynamic visualization tool that helps understand the merge sort algorithm thro
   - Smooth transitions between modes
 
   ![2D Mode](images/2d.png) 
+  
   ![3D Mode](images/3d.png)
 
 - **Interactive Controls**
