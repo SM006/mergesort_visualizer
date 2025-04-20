@@ -16,7 +16,7 @@ A dynamic visualization tool that helps understand the merge sort algorithm thro
   - Smooth transitions between modes
 
   ![2D Mode](images/2d.png) 
-  
+
   ![3D Mode](images/3d.png)
 
 - **Interactive Controls**
@@ -94,7 +94,7 @@ mergesort_visualizer/
 - O(n)
 
 ## Contributers
-Shreya Menon - 16010123324 - E2 batch
-Shreyans Tatiya - 16010123325 - E2 batch
-Siddhant Raut - 16010123331 - E2 batch
+-Shreya Menon - 16010123324 - E2 batch
+-Shreyans Tatiya - 16010123325 - E2 batch
+-Siddhant Raut - 16010123331 - E2 batch
 
